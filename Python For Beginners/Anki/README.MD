@@ -1,6 +1,8 @@
 # Python For Beginners Anki Deck
 
-**Q**: using a ___ before each quote character tells the python interpreter we want to interpret the quote `"` as a character inside the string , not as a quote that ends the string
+Anki ➡️ 01-introduction
+
+**Q1**: using a ___ before each quote character tells the python interpreter we want to interpret the quote `"` as a character inside the string , not as a quote that ends the string
 
 **Solution**:
 
@@ -10,7 +12,7 @@ using a backslash `\` aka the escape charcter before each quote character inside
 print("They said, \"Hello, world!\"")
 ```
 
-**Q**: in python comments are created using the `____`character , any text after the` ___`  character on a line is considered a comment 
+**Q2**: in python comments are created using the `____`character , any text after the` ___`  character on a line is considered a comment 
 
 **Solution**:
 
@@ -20,7 +22,11 @@ In python comments are created using the # character , any text after the # char
 # This is a comment
 ```
 
-**Q**: How to do multiple assignments in python ? 
+---
+
+Anki ➡️02-variables
+
+**Q1**: How to do multiple assignments in python ? 
 
 **Solution**:
 
@@ -30,7 +36,7 @@ msg1,msg2 = "Hello","World"
 print(msg1,msg2)
 ```
 
-**Q**: How can we swap 2 variables in python ?
+**Q2**: How can we swap 2 variables in python ?
 **Solution**:
 
 ```python
@@ -39,7 +45,7 @@ a,b = b,a
 print(a,b)
 ```
 
-**Q**: What is Type Casting ? 
+**Q3**: What is Type Casting ? 
 
 **Solution**:
 
@@ -50,7 +56,7 @@ variable = 10.9
 print(int(variable))
 ```
 
-**Q**: You have to print 10 with the variable number 
+**Q4**: You have to print 10 with the variable number 
 
 ```python
 number = 10.9
@@ -64,13 +70,13 @@ number = 10.9
 print(int(number))
 ```
 
-**Q**: Can we always convert a string to an integer 
+**Q5**: Can we always convert a string to an integer 
 
 **Solution**:
 
 - We can't convert a string to an integer unless the string is a number 
 
-**Q**: How to declare an empty variable ? 
+**Q6**: How to declare an empty variable ? 
 
 **Solution**:
 
@@ -140,6 +146,14 @@ print(x ** y) # Output: 49 (7 raised to the power of 2 is 49, 7*7 = 49)
 - `//=` is shorthand for `count = count //`
 - `**=` is shorthand for `count = count **`
 
-**Q7**: Explain Boolean or , and and not 
+**Q7**: Explain Boolean or , Boolean and and Booleab not ? 
+
+**Solution**:
+
+| Logical Operator | Result                                                       |
+| ---------------- | ------------------------------------------------------------ |
+| Boolean OR       | The OR operation returns  `True` if at least one of the operands is `True` |
+| Boolean and      | The `and` operation returns `True` if all the operands are `True` |
+| Boolean and      | It simply inverts the value of the operand. If the operand is `True`, the result is `False`. If the operand is `False`, the result is `True`. |
 
  
