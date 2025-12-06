@@ -13,6 +13,6 @@
 | Strings                |          |
 | Lists                  | ✅        |
 | Sets                   | ✅        |
-| Dictionaries           |          |
+| Dictionaries           | ✅        |
 | Reading Stdin          |          |
 | Exception Handling     |          |
