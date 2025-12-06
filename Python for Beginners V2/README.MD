@@ -11,7 +11,7 @@
 | Conditional Statements |          |
 | Loop                   |          |
 | Strings                |          |
-| Lists                  |          |
+| Lists                  | ✅        |
 | Sets                   |          |
 | Dictionaries           |          |
 | Reading Stdin          |          |
