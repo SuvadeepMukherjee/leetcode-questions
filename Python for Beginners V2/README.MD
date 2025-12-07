@@ -9,7 +9,7 @@
 | Math                   | ✅        |
 | Functions              | ✅        |
 | Conditional Statements | ✅        |
-| Loop                   |          |
+| Loop                   | ✅        |
 | Strings                |          |
 | Lists                  | ✅        |
 | Sets                   | ✅        |
