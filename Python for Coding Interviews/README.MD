@@ -4,7 +4,7 @@
 
 | Index | Topic                        | Progress |
 | ----- | ---------------------------- | -------- |
-| 1     | Sorting                      |          |
+| 1     | Sorting                      | ✅        |
 | 2     | Pythonic Code                |          |
 | 3     | Lists                        |          |
 | 4     | Stacks and Queues            |          |
