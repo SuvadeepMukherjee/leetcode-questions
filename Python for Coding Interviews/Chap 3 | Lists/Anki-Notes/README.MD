@@ -102,3 +102,85 @@ my_list.extend([4, 5]) # [1, 3, 2, 3, 4, 5]
 
 - `O(n)`
 - Linear search
+
+**Q14**: Which operator concatenates two Python lists ? 
+
+**Solution**: `+`
+
+**Q15**: What is the difference between `+` and `extend()` ? 
+
+**Solution**: `+` creates a new list
+
+**Q16**: What is the time complexity of list concatenation with `+` ? 
+
+**Solution**: `O(n+m)`
+
+**Q17**: Create a list of five 0s 
+
+**Solution**:
+
+`[0] * 5` creates a list of 5 0s 
+
+**Q18**: What is the time complexity of creating a list of 5 0s 
+
+```python
+my_list = [0] * 5   
+```
+
+**Solution**: `O(n)`
+
+**Q19**: How do you clone a list using slicing in Python ? 
+
+**Solution**:
+
+- `original_list[:]`
+- slicing creates a shallow copy
+
+**Q20**: What type of copy does slicing create ? 
+
+**Solution**:
+
+- `Shallow copy`
+
+**Q21**: What is the time complexity of cloning a list ? 
+
+**Solution**: `O(n)` , n = list length
+
+**Q22**: What is the basic syntax of a list comprehension, and what does each part mean?
+
+**Solution**: 
+
+`[expression for item in iterable]` — “expression” is what you put in the list, “item” is each element, and “iterable” is what you loop over.
+
+Examples 
+
+```python
+my_list = [i for i in range(5)]
+
+print(my_list) # [0, 1, 2, 3, 4]
+```
+
+**Q23**: What is the syntax of a list comprehension with a condition, and how does it work?
+
+**Solution**:
+
+`[expression for item in iterable if condition]` — the item is added **only if** the condition is true.
+
+```python
+arr = [1, 2, 3, 4, 5]
+
+result = [i for i in arr if i % 2 == 0]
+```
+
+**Q24**: How does list comprehension work when iterating over two lists at the same time ? 
+
+**Solution**:
+
+`[expression for a, b in zip(list1, list2)]`
+
+```python
+arr1 = [1, 2, 3]
+arr2 = [4, 5, 6]
+
+result = [i + j for i, j in zip(arr1, arr2)]
+```
